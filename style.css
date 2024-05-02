@@ -1,0 +1,162 @@
+body {
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bg-blue {
+  background-color: rgba(241, 243, 255, 1);
+}
+
+.bg-lime-green {
+  background-color: rgba(92, 184, 95, 1);
+  color: white;
+}
+
+.bg-lime-green:hover {
+  background-color: rgb(45, 90, 47);
+  color: white;
+}
+
+.navbar {
+  left: 8%;
+  top: 0;
+  position: absolute;
+}
+
+.main {
+  padding-top: 20vh;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(13, 40, 166, 1);
+  display: block;
+}
+
+.car {
+  max-width: 100%;
+}
+
+.girl {
+  background-image: url("../png/girl2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.girl2 {
+  max-width: 80%;
+}
+
+.lingkaran-1 {
+  background-color: rgba(146, 208, 148, 1);
+}
+
+.lingkaran-2 {
+  background-color: rgba(249, 204, 0, 1);
+}
+
+.lingkaran-3 {
+  background-color: rgb(212, 37, 37);
+}
+
+.services-list .checklist::before {
+  content: "";
+  background: url("../png/check.png");
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  position: absolute;
+  left: -7%;
+  top: 0;
+}
+
+.services-list li {
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.card-container.card {
+  width: 25%;
+}
+
+.card-container.card h5 {
+  font-size: 1rem;
+}
+
+.card-container.card p {
+  font-size: 0.9rem;
+}
+
+.carousel-nav {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.prev-icon {
+  width: 50px;
+  height: 50px;
+  background-image: url("../svg/left_button_off.svg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prev-icon:hover {
+  background-image: url("../svg/left_button_on.svg");
+}
+
+.carousel-nav {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-nav-icon {
+  width: 35px;
+  height: 35px;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.prev-icon {
+  background-image: url("../svg/left_button_off.svg");
+}
+
+.prev-icon:hover {
+  background-image: url("../svg/left_button_on.svg");
+}
+
+.next-icon {
+  background-image: url("../svg/right_button_off.svg");
+}
+
+.next-icon:hover {
+  background-image: url("../svg/right_button_on.svg");
+}
+
+.rounded-circle {
+  object-fit: cover;
+}
+
+.getting-started .container {
+  background-color: rgba(13, 40, 166, 1);
+}
+
+.faq .card-body{
+  text-align: justify;
+}
+
+.faq li img {
+  max-width: 100%;
+}

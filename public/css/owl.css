@@ -1,0 +1,28 @@
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover
+{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.owl-prev span,
+.owl-next span {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(196, 196, 196, 1);
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+  background-color: rgba(92, 184, 95, 1);
+  color: white;
+}
+
+.owl-dots {
+  display: none;
+}
