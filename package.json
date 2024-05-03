@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./src/css/input.css -o ./public/css/style.css -w"
+    "dev": "tailwindcss -i ./src/css/input.css -o ./public/css/style.css -w",
+    "start": "nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0"
   }
 }

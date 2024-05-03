@@ -29,6 +29,7 @@ class Binar {
     } else {
       const response = await fetch(
         "https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json"
+        // "https://raw.githubusercontent.com/pesuts/24001143-synrgy7-dhs-bcr-ch4/main/data/cars.min.json"
       );
       const body = await response.json();
       cars = this.populateCars(body)

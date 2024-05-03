@@ -3,21 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Challenge 2 - Daniel Hasiando Sinaga</title>
+    <title>Challenge 4 - Daniel Hasiando Sinaga</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/owl.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../src/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="../src/css/owl.theme.default.min.css" />
   </head>
 
   <body>
     <main class="mb-5">
       <!-- HERO SECTION -->
-      <section class="main mb-5 lg:max-w-[100] relative" id="main">
+      <section class="main lg:mb-5 lg:max-w-[100] lg:relative" id="main">
         <div class="bg-light-blue ps-5 lg:px-0">
           <!-- NAVBAR -->
           <nav
@@ -168,43 +165,42 @@
 
         <!-- FORM -->
         <section
-          class="find-car absolute -bottom-16 left-0 right-0 ms-auto me-auto scale-[0.85]"
+          class="find-car -mt-12 lg:absolute lg:-bottom-16 left-0 right-0 ms-auto me-auto scale-[0.9] z-50"
         >
-          <div class="flex justify-center">
-            <div class="p-5 flex justify-center rounded-xl shadow-[0_0_10px_5px_rgba(0,0,0,0.1)] bg-white">
+          <div class="lg:flex lg:justify-center">
+            <div class="p-5 lg:flex justify-center rounded-xl shadow-[0_0_10px_5px_rgba(0,0,0,0.1)] bg-white">
               <form action="" method="post">
-                <div class="forms flex justify-evenly gap-x-4">
-                  <div class="form-sopir">
+                <div class="forms lg:flex justify-evenly gap-x-4">
+                  <div class="form-driver">
                     <p>Tipe Driver</p>
-                    <select name="" id="form-sopir" class="border-gray-100 rounded-md border-2 w-56">
-                      <option value="">Dengan Sopir</option>
-                      <option value="">Tanpa Sopir (Lepas Kunci)</option>
+                    <select name="form-driver" id="form-driver" class="border-gray-100 rounded-md border-2 w-full lg:w-56">
+                      <option value="" hidden >Pilih Tipe Driver</option>
+                      <option value="1">Dengan Sopir</option>
+                      <option value="0">Tanpa Sopir (Lepas Kunci)</option>
                     </select>
                   </div>
 
-                  <div class="form-tanggal">
+                  <div class="form-date">
                     <p>Tanggal</p>
-                    <input type="date" name="" id="" class="border-gray-100 rounded-md border-2 w-56"/>
+                    <input type="date" name="form-date" id="form-date" class="border-gray-100 rounded-md border-2 w-full lg:w-56"/>
                   </div>
 
-                  <div class="form-tanggal">
+                  <div class="form-time">
                     <p>Waktu Jemput/Ambil</p>
-                    <select name="" id="form-tanggal" class="border-gray-100 rounded-md border-2 w-56">
-                      <option value="">08:00 WIB</option>
-                      <option value="">09:00 WIB</option>
-                    </select>
+                    <input type="time" name="form-time" id="form-time" class="border-gray-100 rounded-md border-2 w-full lg:w-56">
                   </div>
 
-                  <div class="form-tangal">
-                    <p for="form-tanggal">Jumlah Penupang (opsional)</p>
-                    <input type="text" name="" id="" class="border-gray-100 rounded-md border-2 w-56"/>
+                  <div class="form-capacity">
+                    <p>Jumlah Penupang (opsional)</p>
+                    <input type="text" name="form-capacity" id="form-capacity" class="border-gray-100 rounded-md border-2 w-full lg:w-56"/>
                   </div>
                   <div class="flex items-end">
-                    <a
-                      class=" bg-lime-green text-sm text-white px-3 py-3 font-bold rounded hover:bg-lime-green-hover"
+                    <button
+                      id="filter-btn"
+                      class=" bg-lime-green text-sm text-white mt-3 my-2 lg:mt-0 lg:my-0 px-3 py-3 font-bold rounded hover:bg-lime-green-hover"
                       href=""
                       >Cari Mobil
-                    </a>
+                    </button>
                   </div>
                 </div>
               </form>
@@ -213,8 +209,15 @@
         </section>
       </section>
 
+    <!-- RESULT SECTION -->
+    <section id="result" class="mx-5 pb-5 lg:pt-16"
+             id="testimonial">
+      <div id="cars-container" class="flex flex-wrap justify-center gap-6 gap-y-6">
+      </div>
+    </section>
+
       <!-- FOOTER -->
-      <footer class="p-5 mt-32 mb-10 max-w-72 lg:max-w-[100%] lg:mx-28">
+      <footer class="p-5 lg:mt-10 mb-10 max-w-max lg:max-w-[100%] lg:mx-28">
         <div class="lg:flex">
           <div class="lg:w-4/12">
             <ul class="">
@@ -274,36 +277,15 @@
         </div>
       </footer>
     </main>
-    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
-    <script>
-      feather.replace();
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <script src="../src/js/owl.carousel.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".owl-carousel").owlCarousel();
-      });
 
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        items: 1,
-        responsive: {
-          768: {
-            stagePadding: 100,
-          },
-          1024: {
-            stagePadding: 250,
-          },
-        },
-      });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="./scripts/Binar.js"></script>
+    <script src="./scripts/Car.js"></script>
+    <script src="./scripts/App.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
