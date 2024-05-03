@@ -1,6 +1,7 @@
 [
   {
     "id": "6e2bc663-5197-441a-957b-bc75e4a2da7c",
+    "driver": false,
     "plate": "DBH-3491",
     "manufacture": "Ford",
     "model": "F150",
@@ -31,6 +32,7 @@
   },
   {
     "id": "9ff03bbc-b18c-4ba7-8f3a-4c4b5c2f6c77",
+    "driver": true,
     "plate": "WXB-3984",
     "manufacture": "BMW",
     "model": "X5",
@@ -60,6 +62,7 @@
   },
   {
     "id": "bf6b5c43-1377-4ae0-8908-310c64266f81",
+    "driver": true,
     "plate": "OSL-4224",
     "manufacture": "Lincoln",
     "model": "MKZ",
@@ -94,6 +97,7 @@
   },
   {
     "id": "5b67f1d7-92d4-41c7-8577-4435740aadf1",
+    "driver": true,
     "plate": "VPT-9753",
     "manufacture": "BMW",
     "model": "M5",
@@ -128,6 +132,7 @@
   },
   {
     "id": "23574b8f-3e89-4685-a348-67c1f7e5b3c4",
+    "driver": false,
     "plate": "BHD-3923",
     "manufacture": "Lincoln",
     "model": "Navigator",
@@ -157,6 +162,7 @@
   },
   {
     "id": "3eead6db-c536-406b-9bc5-85d4c6e38a76",
+    "driver": true,
     "plate": "JPM-5482",
     "manufacture": "Ford",
     "model": "Fiesta",
@@ -187,6 +193,7 @@
   },
   {
     "id": "752685ce-dd39-40e5-9af5-93fdd36dea7e",
+    "driver": true,
     "plate": "BTW-1960",
     "manufacture": "Honda",
     "model": "Accord",
@@ -220,6 +227,7 @@
   },
   {
     "id": "d97e0af5-2728-4ce3-ba7f-9d83a0837db6",
+    "driver": false,
     "plate": "YHD-4104",
     "manufacture": "Lincoln",
     "model": "Navigator",
@@ -250,6 +258,7 @@
   },
   {
     "id": "0d5de078-a5fc-456b-9487-47eb450a01c6",
+    "driver": true,
     "plate": "STL-7347",
     "manufacture": "Buick",
     "model": "LaCrosse",
@@ -282,6 +291,7 @@
   },
   {
     "id": "6dfa349e-631c-46c0-a037-5c73902ff738",
+    "driver": true,
     "plate": "TJW-7622",
     "manufacture": "BMW",
     "model": "X5",
@@ -311,6 +321,7 @@
   },
   {
     "id": "803593fb-b857-4a01-adc4-651538217a04",
+    "driver": false,
     "plate": "YND-1892",
     "manufacture": "Chevy",
     "model": "Malibu",
@@ -344,6 +355,7 @@
   },
   {
     "id": "e0a96736-a2d5-40ca-87de-64b59cac85d8",
+    "driver": true,
     "plate": "FZQ-1989",
     "manufacture": "BMW",
     "model": "X3",
@@ -380,6 +392,7 @@
   },
   {
     "id": "e39f2965-57da-4d8f-afdb-74f6c54e69f0",
+    "driver": true,
     "plate": "GAG-1943",
     "manufacture": "Chevy",
     "model": "Malibu",
@@ -409,6 +422,7 @@
   },
   {
     "id": "c18a5545-2ce2-4330-aa3b-1bbcf6247519",
+    "driver": false,
     "plate": "CVO-9549",
     "manufacture": "Chevy",
     "model": "Malibu",
@@ -441,6 +455,7 @@
   },
   {
     "id": "72530cba-051d-49d8-822b-deaf2e5330ca",
+    "driver": true,
     "plate": "JWU-8459",
     "manufacture": "Lincoln",
     "model": "MKS",
@@ -476,6 +491,7 @@
   },
   {
     "id": "79cc327b-2b0f-4042-acdf-78386b2f8ebd",
+    "driver": true,
     "plate": "VOS-8183",
     "manufacture": "Chevy",
     "model": "Silverado",
@@ -506,6 +522,7 @@
   },
   {
     "id": "22c969a7-04ce-4efb-a479-7ab3bc094cb9",
+    "driver": false,
     "plate": "ENW-7713",
     "manufacture": "Lincoln",
     "model": "MKS",
@@ -539,6 +556,7 @@
   },
   {
     "id": "1bfda124-5175-4b90-bee7-d66affdbcc66",
+    "driver": true,
     "plate": "TPM-8174",
     "manufacture": "Dodge",
     "model": "Ram",
@@ -572,6 +590,7 @@
   },
   {
     "id": "08cbd537-497f-4305-b7b4-e7493c703a2c",
+    "driver": true,
     "plate": "ZAG-8112",
     "manufacture": "Ford",
     "model": "F150",
@@ -607,6 +626,7 @@
   },
   {
     "id": "950575d6-958c-422e-a46b-c3ed2e1315ed",
+    "driver": true,
     "plate": "MRQ-2982",
     "manufacture": "Audi",
     "model": "A4",
@@ -638,6 +658,7 @@
   },
   {
     "id": "b89117fc-69e1-4366-ba21-9d6a0b2bfb04",
+    "driver": true,
     "plate": "ACT-6027",
     "manufacture": "Dodge",
     "model": "Durango",
@@ -668,6 +689,7 @@
   },
   {
     "id": "fc1d3297-ab17-40a9-a79c-ca7307ed5faa",
+    "driver": true,
     "plate": "LSI-6227",
     "manufacture": "Audi",
     "model": "S5",
@@ -703,6 +725,7 @@
   },
   {
     "id": "432d9ed1-e330-4953-ac33-f51a60a5799b",
+    "driver": true,
     "plate": "OAI-9575",
     "manufacture": "Toyota",
     "model": "Camry",
@@ -739,6 +762,7 @@
   },
   {
     "id": "32e7e56f-1a00-455f-bf4b-dbd2c8c4daaf",
+    "driver": true,
     "plate": "NHI-3883",
     "manufacture": "Nissan",
     "model": "Pathfiner",
@@ -771,6 +795,7 @@
   },
   {
     "id": "e76e884b-8f3e-4b90-a717-9239676d0191",
+    "driver": false,
     "plate": "IDN-5442",
     "manufacture": "Honda",
     "model": "Civic",
